@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://fonts.googleapis.com/css?family=Exo:400,700'); /* Background image URL */
+            background-size: cover;
+            background-color: #4e54c8; 
+            background-image: none;
+            border-color: black;/* Cover the entire viewport */
+            background-repeat: no-repeat; /* Do not repeat the background image */
+            background-position: center; /* Center the background image */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background-color: rgba(181, 112, 221, 0.9); /* Adding opacity to container */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adding shadow effect */
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .header h1 {
+            color: #4e54c8; /* Special color for heading */
+            animation: fadeIn 3s ease;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .nav {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            margin: 0 10px;
+            color: #333;
+            font-weight: bold;
+            transition: transform 0.3s ease; /* Adding transition effect */
+        }
+
+        .nav a:hover {
+            color: #007bff;
+            transform: scale(1.1); /* Increasing size on hover */
+        }
+
+        .social-icons {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 10px;
+            transition: transform 0.3s ease; /* Adding transition effect */
+        }
+
+        .social-icons a:hover {
+            color: #007bff;
+            transform: scale(1.1); /* Increasing size on hover */
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            transition: transform 0.5s ease; /* Adding transition effect */
+        }
+
+        .project {
+            flex: 0 0 calc(33.33% - 20px);
+            max-width: calc(33.33% - 20px);
+            margin-bottom: 20px;
+            text-align: center;
+            border: 2px snow #4e54c8; /* Border for project sections */
+            border-radius: 20px; /* Rounded border */
+            padding: 10px; 
+            transition: border-color 0.3s ease; 
+        }
+
+        .project:hover {
+            border-color: #8f94fb; 
+            transform: scale(1.05);
+        }
+
+        .project img {
+            width: 100%;
+            height: auto;
+            border-radius: 2px;
+            margin-bottom: 7px;
+        }
+
+        .project h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            margin-bottom: 10px;
+        }
+
+        .about h2, .contact h2 {
+            color: #4e54c8; 
+            animation: fadeIn 2s ease;
+        }
+
+        .about p, .contact p {
+            animation: fadeIn 2s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Check out my projects and connect with me!</p>
+        </div>
+        <div class="nav">
+            <a href="T-1 PRODUCT LANDING PAGE.html"><button>Projects</button></a> 
+            <a href="#I'M sivanandh cc"><button>ABOUT ME</button></a> 
+            <a href="#9342446559"><button>Contact</button></a> 
+        </div>
+        <div class="social-icons">
+            <a href="linkedin.com/in/siva-nandh-1a3942273"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Sivanandh10"><i class="fab fa-github"></i></a>
+            <a href="#NO ACCOUNT"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="projects" id="projects">
+            <div class="project">
+                <img src="product1.jpg" alt="Project 1" width="100%" height="auto">
+                <h3>Project 1</h3>
+                <p>Machine Learning Internship
+                    Subset Of AI That Teaches Computers To Learn From Data And Make Predictions Or Decisions.Creating Algorithms That Improve With Experience.</p>
+            </div>
+            <div class="project">
+                <img src="product2.jpg" alt="Project 2" width="100%" height="auto">
+                <h3>Project 2</h3>
+                <p>Full Stack Web DevOps Combines Web Development And DevOps For End-To-End Application Creation, Automation, And Efficiency</p>
+            </div>
+            <div class="project">
+                <img src="product3.jpg" alt="Project 3" width="50px" height="auto">
+                <h3>Project 3</h3>
+                <p>Python Is A High-Level, Versatile Programming Language Known For Its Simplicity And Readability. It Is Widely Used For Web Development, Data Analysis, Artificial Intelligence, And More</p>
+            </div>
+        </div>
+        <div class="about" id="about">
+           <h2>About Me:</h2>
+            <p>Hello there! My name is SIVANANDH Cc, and I'm a passionate SOFTWARE FIELD based in BENGALURU. I have a strong background in CODING, with experience in FULL-STACK DEVELOPMENT.</p>
+            
+            <p>Throughout my career, I've had the opportunity to work on various projects that have honed my skills in FULL-STACK DEVELOPER. I'm particularly interested in CODING AREAS, and I'm always eager to learn and explore new technologies and techniques.</p>
+            
+            <p>When I'm not coding or working on projects, you can find me PLAYING GAMES and WATCHIN MOVIES and CODING. I believe in maintaining a healthy work-life balance, and I find that Hobbies or Interests help me recharge and stay creative.</p>
+            
+            <p>I'm passionate about Specific Causes or Industries, and I'm always looking for ways to use my skills and expertise to make a positive impact in the world. Whether it's through Volunteering, Open Source Contributions, etc., I'm committed to giving back to the community.</p>
+            
+            <p>I'm excited about the opportunity to connect with fellow professionals, collaborate on interesting projects, and continue growing and learning in my field. Feel free to reach out to me via email at sivanandh10c@gmail.com or connect with me on Social Media Platform(s). I look forward to hearing from you!</p>
+        </div>
+        
+        <div class="contact" id="contact">
+            <h2>Contact</h2>
+            <p>Email: sivanandh10cc@gmail.com</p>
+            <p>Phone: +919342446559</p>
+        </div>
+    </div>
+</body>
+</html>
